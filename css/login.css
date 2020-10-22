@@ -1,0 +1,81 @@
+* {
+  margin: o;
+  padding: 0;
+}
+body {
+  background-image: url(../img/fondo.jpg);
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#vienvenida {
+  text-align: center;
+  color: pink;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: larger;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  position: relative;
+  display: block;
+  top: 100px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  -webkit-box-shadow: -27px 28px 29px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -27px 28px 29px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: -27px 28px 29px -2px rgba(0, 0, 0, 0.75);
+}
+.btn-primary {
+  position: relative;
+  left: 10px;
+}
+
+label {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: pink;
+  font-size: medium;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+}
+
+#grongpass {
+  color: pink;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: x-large;
+}
+
+#contra {
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+#entrar {
+  margin-bottom: 30px;
+}
+
+#exampleInputEmail1 {
+  width: 300px;
+  margin-left: 10px;
+}
+#exampleInputPassword1 {
+  width: 300px;
+  margin-left: 10px;
+}

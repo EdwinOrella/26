@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <title>Hola amor</title>
+  </head>
+  <body>
+    <div class="container">
+      <form autocomplete="off">
+        <span id="vienvenida">Hola amor, vienvenida</span>
+        <p id="grongpass"></p>
+        <br />
+        <img src="img/login.jpeg" alt="" />
+        <div class="form-group">
+          <label for="exampleInputEmail1" class="nombre">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            placeholder="(minusculas)"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >Te adoro con mi vida</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Contraseña</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            placeholder="(sin esapacio y minuscula)"
+          />
+        </div>
+        <button id="entrar" type="button" class="btn btn-primary">Entrar</button>
+        <button type="button" id="contra" class="btn btn-secondary">
+          No se la contra :(
+        </button>
+      </form>
+    </div>
+    <script src="js/login.js"></script>
+  </body>
+</html>
